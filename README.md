@@ -7,3 +7,15 @@ This is a news app to help me learn adanced netwoking in android
 - Using  Loaders, LoaderManager.LoaderCallbacks
 - Doing network operations independent of the Activity lifecycle
 - Use Uri.Builder class to add query parameters to the URL
+
+##Display news
+
+![](images/dispalyNews.JPG )  
+
+## on clicking opens the news URL link
+
+![](images/loadNewsItems.JPG)
+
+## Display no iternet connection incase no internet available. Also show no news articles found in case of a broken link or faults with links.
+
+![](images/noInternetConnection.JPG)
