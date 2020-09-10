@@ -5,10 +5,10 @@ This is a news app to help me learn adanced netwoking in android
 - Handling error cases gracefully, like logs/printstacks
 - Updating news information regularly on listview 
 - Using  Loaders, LoaderManager.LoaderCallbacks
-- Doing network operations independent of the Activity lifecycle
+- Doing network operations independent of the Activity lifecycle using background threads
 - Use Uri.Builder class to add query parameters to the URL
 
-##Display news
+## Display news queried
 
 ![](images/dispalyNews.JPG )  
 
