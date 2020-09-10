@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mpasho News</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_new_found">No news found</string>
+    <string name="no_news">No news found</string>
+    <string name="author">Author:</string>
+</resources>
