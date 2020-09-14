@@ -10,7 +10,8 @@ This is a news app to help me learn adanced netwoking in android
 
 ## Display news queried
 
-![](images/dispalyNews.JPG )  
+![](images/dispalyNews.JPG )
+
 
 ## on clicking opens the news URL link
 

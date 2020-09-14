@@ -101,10 +101,13 @@ public class News_MainActivity extends AppCompatActivity implements
 
                 // Create a new intent to view the web URI
                 Intent websiteIntent = new Intent(Intent.ACTION_VIEW, webUri);
+                //Before sending your implicit intent, you must check if the user's device has an app
+                // that can handle it, otherwise, the call will fail and your app will crash.
 
-                // Send the intent to launch a new activity
-                startActivity(websiteIntent);
-
+                if (websiteIntent.resolveActivity(getPackageManager()) != null) {
+                    // Send the intent to launch a new activity
+                    startActivity(websiteIntent);  //where intent is your intent
+               }
             }
         });
     }
@@ -143,6 +146,7 @@ public class News_MainActivity extends AppCompatActivity implements
         if (data != null && !data.isEmpty()) {
             //if news feed is available, then hide the textView no news articles available
             mTextView.setVisibility(View.GONE);
+
 
             //load all news data into the list view
             mAdapter.addAll(data);
