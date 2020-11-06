@@ -1,4 +1,4 @@
-# Mpasho-News-App
+# News-App
 This is a news app to help me learn adanced netwoking in android
 - Connecting to an API(https://content.guardianapis.com/search?q=debates&api-key=test)
 - Parsing the JSON response
